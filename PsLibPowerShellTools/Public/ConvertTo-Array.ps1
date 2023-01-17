@@ -1,12 +1,4 @@
-#region documentation
-# misc. helpers for arrays
-#endregion
-
-#region scriptheader
-#endregion
-
-#region code
-function ToArray {
+function ConvertTo-Array {
     begin {
         $output = @();
     }
